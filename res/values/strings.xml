@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ave01Rachunek</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="status_label">Your status:</string>
+
+    <string-array name="status_levels">
+        <item>FIT</item>
+        <item>OK</item>
+        <item>LAZY!</item>
+        <item>FAT!!</item>
+        <item>SUPER FAT!!!</item>
+    </string-array>
+
+    <string name="log_today">Log today</string>
+    <string name="activities_label">Activities</string>
+    <string name="food_label">Food</string>
+    <string name="crimes_label">Crimes</string>
+    <string name="weight_label">Weight</string>
+    <string name="good_day_label">Was it a good day?</string>
+    <string name="checkbox_sport">Sport</string>
+    <string name="checkbox_walk">Walk</string>
+    <string name="checkbox_bike_to">Biking to the office</string>
+    <string name="checkbox_bike_from">Biking from the office</string>
+    <string name="checkbox_sit_ups">Sit-ups</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="checkbox_fish">Fish eaten</string>
+    <string name="checkbox_brakfast_on_time">Breakfast till 9am</string>
+    <string name="checkbox_vegetarian_day">Vegetarian day</string>
+    <string name="checkbox_no_late_meal">Last meal till 7pm</string>
+    <string name="checkbox_5meals">Had 5 meals</string>
+    <string name="checkbox_fruits">Fruits eaten</string>
+    <string name="checkbox_too_much_food">Too much food</string>
+    <string name="checkbox_gluttony">Gluttony</string>
+    <string name="checkbox_late_meal">Last meal after 8pm</string>
+    <string name="checkbox_junk_food">Junk food</string>
+    <string name="checkbox_alcohol">Alcohol</string>
+    <string name="checkbox_candies">Candies</string>
+    <string name="checkbox_sugar_drinks">Sugar drinks</string>
+    <string name="good_day_yes">Yes</string>
+    <string name="good_day_no">No</string>
+
+</resources>

@@ -1,0 +1,192 @@
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        tools:context=".LogActivity">
+
+	<LinearLayout 
+	    android:id="@+id/LinearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	     >
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/activities_label"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxSport"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_sport" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxWalk"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_walk" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxBikeTo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_bike_to" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxBikeFrom"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_bike_from" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxSitUps"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_sit_ups" />
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/food_label"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxFruits"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_fruits" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBox5Meals"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_5meals" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxNoLateMeal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_no_late_meal" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxVegetarianDay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_vegetarian_day" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxBreakfastOnTime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_brakfast_on_time" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxFish"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_fish" />
+	
+	    <TextView
+	        android:id="@+id/crimesLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/crimes_label"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxTooMuchFood"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_too_much_food" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxGluttony"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_gluttony" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxLateMeal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_late_meal" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxJunkFood"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_junk_food" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxAlcohol"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_alcohol" />
+	
+	    <CheckBox
+	        android:id="@+id/checkCandies"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_candies" />
+	
+	    <CheckBox
+	        android:id="@+id/checkSugarDrings"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkbox_sugar_drinks" />
+	
+	    <TextView
+	        android:id="@+id/weightLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/weight_label"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/editWeight"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="number" >
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/goodDayLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/good_day_label"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+		<RadioGroup
+	        android:id="@+id/radioGroupGoodDay"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/radioGoodDayYes"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/good_day_yes" />
+	
+	        <RadioButton
+	            android:id="@+id/radioGoodDayNo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/good_day_no" />
+	
+	    </RadioGroup>
+	    
+	</LinearLayout>
+</ScrollView>
