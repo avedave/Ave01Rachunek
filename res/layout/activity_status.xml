@@ -10,24 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".StatusActivity" >
 
-    <TextView
-        android:id="@+id/activities_label"
-        android:layout_width="wrap_content"
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="pl.dawidostrowski.ave01rachunek.StatusFragment"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/status_label"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/status_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        tools:layout="@layout/status_fragment_layout" />
 
     <Button
         android:id="@+id/log_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/log_today" />
+        android:layout_gravity="center_vertical"
+        android:text="@string/log_today"
+        android:paddingTop="@dimen/activity_vertical_margin" />
 
 </LinearLayout>

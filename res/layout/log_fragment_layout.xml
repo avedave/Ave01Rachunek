@@ -1,12 +1,9 @@
-<ScrollView
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	    xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/scrollView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        tools:context=".LogActivity">
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 
-	<LinearLayout 
+    <LinearLayout 
 	    android:id="@+id/LinearLayout1"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
@@ -189,4 +186,6 @@
 	    </RadioGroup>
 	    
 	</LinearLayout>
+    
+
 </ScrollView>

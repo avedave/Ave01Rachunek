@@ -15,13 +15,15 @@ public class StatusActivity extends Activity {
 		setContentView(R.layout.activity_status);
 		
 		Button logButton = (Button)findViewById(R.id.log_button);
-		logButton.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent logIntent = new Intent(StatusActivity.this, LogActivity.class);
-				startActivity(logIntent);
-			}
-		});
+		if (logButton != null) {
+			logButton.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					Intent logIntent = new Intent(StatusActivity.this, LogActivity.class);
+					startActivity(logIntent);
+				}
+			});
+		}
 		
 	}
 
